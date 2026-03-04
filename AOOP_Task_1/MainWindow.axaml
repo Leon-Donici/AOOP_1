@@ -17,10 +17,10 @@
         <StackPanel Grid.Row="1" Grid.Column="1" Background="White">
             <Button
                     Content = "Play"
-                    Margin="15"
+                    Margin="17"
                     Width="80" Height="40"
                     BorderBrush="Black"
-                    BorderThickness="3"
+                    BorderThickness="5"
                     Background="White"
                     HorizontalAlignment="Center"
                     Foreground="Black"/>
@@ -52,8 +52,8 @@
                     HorizontalAlignment="Center"
                     Foreground="Black"/>
         </StackPanel>
-        <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Background="White">
-            <TextBlock FontSize="30" HorizontalAlignment="Right" Margin="90,10">
+        <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"  Background="White">
+            <TextBlock FontSize="30" Foreground="Black" HorizontalAlignment="Right" Margin="80,10">
                 Size
             </TextBlock>
         </StackPanel>
