@@ -7,7 +7,7 @@
         Title="AOOP_Task_1">
     <Grid RowDefinitions="  Auto, *, Auto" ColumnDefinitions="70*, 30*">
         <StackPanel Grid.ColumnSpan="2" Background="White" Grid.Row="0" Grid.Column="0">
-            <TextBlock Margin="0.5" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Foreground="Black">
+            <TextBlock Margin="15,5" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Foreground="Black">
              Player to move
             </TextBlock>
         </StackPanel>
@@ -22,7 +22,8 @@
                     BorderBrush="Black"
                     BorderThickness="3"
                     Background="White"
-                    HorizontalAlignment="Center"/>
+                    HorizontalAlignment="Center"
+                    Foreground="Black"/>
             <Button
                     Content = "Save"
                     Margin="15"
@@ -30,7 +31,8 @@
                     BorderBrush="Black"
                     BorderThickness="3"
                     Background="White"
-                    HorizontalAlignment="Center"/>
+                    HorizontalAlignment="Center"
+                    Foreground="Black"/>
             <Button
                     Content = "Save"
                     Margin="15"
@@ -38,7 +40,8 @@
                     BorderBrush="Black"
                     BorderThickness="3"
                     Background="White"
-                    HorizontalAlignment="Center"/>
+                    HorizontalAlignment="Center"
+                    Foreground="Black"/>
             <Button
                     Content = "Size"
                     Margin="80"
@@ -46,7 +49,8 @@
                     BorderBrush="Black"
                     BorderThickness="3"
                     Background="White"
-                    HorizontalAlignment="Center"/>
+                    HorizontalAlignment="Center"
+                    Foreground="Black"/>
         </StackPanel>
         <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Background="White">
             <TextBlock FontSize="30" HorizontalAlignment="Right" Margin="90,10">
